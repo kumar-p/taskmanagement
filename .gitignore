@@ -1,0 +1,79 @@
+# =========================================================================
+# Build Tools (Maven & Gradle)
+# =========================================================================
+# Ignore compiled target directories
+target/
+build/
+out/
+bin/
+
+# Exclude Maven wrapper jar file from being ignored (needed to run ./mvnw)
+!.mvn/wrapper/maven-wrapper.jar
+
+# Exclude Gradle wrapper jar file from being ignored (needed to run ./gradlew)
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore Gradle caches and local runtime configurations
+.gradle/
+.m2/
+*.log
+*.gz
+
+# Avoid capturing test reports locally
+test-reports/
+coverage/
+
+# =========================================================================
+# Java & Environments
+# =========================================================================
+# Compiled class files
+*.class
+
+# Package files (uncomment if you do not want to commit compiled fat JARs/WARs)
+# *.jar
+# *.war
+# *.ear
+
+# Crash logs
+hs_err_pid*
+replay_pid*
+
+# Configuration profiles containing sensitive production or local keys
+.env
+application-local.properties
+application-local.yml
+
+# =========================================================================
+# IDE Settings (IntelliJ, Eclipse, VS Code, STS)
+# =========================================================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse / Spring Tool Suite (STS)
+.metadata/
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache
+
+# Visual Studio Code
+.vscode/
+
+# =========================================================================
+# Operating System Files
+# =========================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
